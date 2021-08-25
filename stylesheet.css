@@ -1,0 +1,66 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1554034483-04fda0d3507b?ixlib=rb-1.2.1&w=1000&q=80);
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Verdana;
+  }
+  
+  #title {
+    text-align : center;
+  }
+  
+  #description {
+    text-align : center;
+  }
+  
+  .form-control {
+    margin-bottom : 40px;
+  }
+  
+  
+  #survey-form{
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.2);
+    line-height: 20px;
+  }
+  
+  #fname {
+    width : 95%;
+  }
+  
+  #email {
+    width : 95%;
+  }
+  
+  #number {
+    width : 95%;
+  }
+  
+  .form-control textarea {
+    height : 100px;
+    width : 95%;
+  }
+  
+  button {
+              background-color:#9dc3ed;
+              border: 1px solid #777;
+              border-radius: 2px;
+              font-family: inherit;
+              display: block;
+              width: 97%;
+          }
+  
+
+          @media screen and (min-width: 400px) {
+              #description {
+                  padding: 50px;
+              }
+
+              #survey-form {
+                  max-width: 700px;
+              }
+          }
